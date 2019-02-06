@@ -9,13 +9,17 @@ class ideone
 		Scanner S=new Scanner(System.in);
 		System.out.println("");
 		a=S.nextInt();
-		if(a>0)
+		if(a<0)
+		{
+			System.out.println("invalid");
+		}
+		else if(a>0)
 		{
 			System.out.println("Positive");
 		}
-		else if(a==0)
+		else
 		{
-			System.out.println("Nagetive");
+			System.out.println("Negative");
 		}
-		}
+}
 }
